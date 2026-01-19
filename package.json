@@ -1,7 +1,7 @@
 {
   "name": "budgetier",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "class-variance-authority": "^0.7.1",
+    "prop-types": "^15.8.1",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "react-error-boundary": "^6.0.3",
+    "react-router-dom": "^7.11.0",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -20,9 +26,12 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^9.39.1",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "prettier": "3.7.4",
+    "prop-types": "^15.8.1",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.49.0",
     "vite": "^7.2.7"

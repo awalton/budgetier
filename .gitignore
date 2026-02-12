@@ -13,6 +13,7 @@ dotenv*.*
 .env
 .env.*.php
 .env.php
+.env*
 
 # NPM
 /node_modules
